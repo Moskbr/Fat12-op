@@ -1,6 +1,8 @@
 # Sistema de Arquivos FAT12
 Trabalho de Sistemas Operacionais: Implementação básica de um sistema de arquivos FAT12.
 
+Obs: para abrir a imagem, é necessário alterar o caminho dentro do código.
+
 O sistema é capaz de listas os arquivos nos diretórios e subdiretórios de um disco FAT12, além de copiar os arquivos no disco para o sistema, com o comando "grab".
 
 Para a implementação dos subdiretórios foi utilizado uma lista ligada contendo um vetor das entradas dentro dela, e informações como "path" e o índice do diretório pai de vetor das entradas root.
